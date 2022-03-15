@@ -1,0 +1,274 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://scenes/Main.gd" type="Script" id=1]
+[ext_resource path="res://assets/video/y2mate.com - Top Five Tips for Making Video Games Accessible in 2022_480p.ogv" type="VideoStream" id=2]
+[ext_resource path="res://addons/srt-animation/srt_importer_tool.gd" type="Script" id=3]
+[ext_resource path="res://assets/fonts/Roboto/Roboto-Bold.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://assets/fonts/Roboto/Roboto-Regular.ttf" type="DynamicFontData" id=5]
+[ext_resource path="res://assets/fonts/Roboto/Roboto-BlackItalic.ttf" type="DynamicFontData" id=6]
+[ext_resource path="res://assets/fonts/Roboto/Roboto-Italic.ttf" type="DynamicFontData" id=7]
+[ext_resource path="res://assets/fonts/Roboto/Roboto-Medium.ttf" type="DynamicFontData" id=8]
+
+[sub_resource type="StyleBoxFlat" id=7]
+bg_color = Color( 0.152941, 0.152941, 0.152941, 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 20
+font_data = ExtResource( 6 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 20
+font_data = ExtResource( 7 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 20
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 20
+font_data = ExtResource( 5 )
+
+[sub_resource type="DynamicFont" id=10]
+size = 22
+font_data = ExtResource( 8 )
+
+[sub_resource type="Animation" id=11]
+length = 159.189
+step = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("VBoxContainer/VBoxContainer/Label:bbcode_text")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.31, 4.82, 9.96, 11.46, 17.86, 20.919, 24.679, 30.539, 35.45, 39.88, 42.76, 47.461, 53.22, 56.28, 60.5, 65.409, 68.54, 71.27, 76.45, 82.109, 83.56, 88.88, 93.729, 96.21, 99.57, 104.829, 110.149, 113.079, 118.42, 122.31, 127.81, 132.61, 135.79, 137.83, 140.129, 143.64, 147.319, 151.159, 154.42, 158.299, 159.189 ),
+"transitions": PoolRealArray( 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ),
+"update": 1,
+"values": [ "", "[center]Hi, I’m Joe from the [b]Gaming Accessibility
+Team at Xbox.[/b]
+[/center]", "[center]2021 was such a [wave amp=50 freq=2]great year for gaming accessibility[/wave]
+– and we can’t wait to see the progress
+[/center]", "[center]that’ll be made in [rainbow freq=0.2 sat=10 val=20]2022[/rainbow].
+[/center]", "[center]Here are the top 5 tips to keep in mind when
+creating accessible games this year.
+[/center]", "[center]Number 1 – Plan ahead!
+[/center]", "[center]Define your accessibility goals early on in
+the product lifecycle.
+[/center]", "[center]Truly accessible gaming experiences are built
+by design, and not as last-minute add-ons.
+[/center]", "[center]This means that additional features added
+later on in the development cycle to fix inaccessible
+[/center]", "[center]designs are not always effective for players.
+[/center]", "[center]Number 2 – Don’t design yourself into
+a corner!
+[/center]", "[center]Let’s say your team wants to ensure that
+players can scale text up to 200% (which you
+[/center]", "[center]should!), but during development, your game
+is hard coded to the default text size – meaning
+[/center]", "[center]once text is scaled, the UI breaks.
+[/center]", "[center]By using variables as often as possible in
+your programming, and creating mockups of
+[/center]", "[center]the extreme variables to make sure they’re
+going to work, you can save a lot of time
+[/center]", "[center]and deliver an experience that works.
+[/center]", "[center]Number 3 – Think about who you may be excluding.
+[/center]", "[center]For example, if you make a choice to require
+quick, repetitive button choices on the controller
+[/center]", "[center]as a core mechanic of your game, you may unintentionally
+exclude players who cannot physically perform
+[/center]", "[center]those actions.
+[/center]", "[center]In contrast, if you allow players to customize
+the input type for certain actions, like introducing
+[/center]", "[center]other options such as “quick button hold,”
+or allowing players to skip rapid button presses,
+[/center]", "[center]this will help eliminate barriers.
+[/center]", "[center]Number 4 – Partner with the gaming and disability
+community.
+[/center]", "[center]If you don’t know whether or not your design
+decisions might be excluding groups of players,
+[/center]", "[center]you can work with disabled gamers who can
+help you find ways to eliminate the barriers.
+[/center]", "[center]Number 5 – Test early and test often!
+[/center]", "[center]When it comes to accessibility, it’s important
+to identify barriers to access as early as
+[/center]", "[center]possible in order to allow time to properly
+build solutions.
+[/center]", "[center]While it can seem tempting to wait until a
+playable build of the game is ready to gather
+[/center]", "[center]feedback, at this point, it might be too late
+to implement the nature of feedback you may
+[/center]", "[center]get from the gaming and disability community.
+[/center]", "[center]Let’s recap.
+[/center]", "[center]Number 1, Plan ahead.
+[/center]", "[center]Number 2, Don’t design yourself into a corner.
+[/center]", "[center]Number 3, Think about who you may be excluding.
+[/center]", "[center]Number 4, Partner with the gaming and disability
+community.
+[/center]", "[center]And number 5, Test early and often.
+[/center]", "[center]Let’s make 2022 the best year for accessible
+gaming.
+[/center]", "[center]Thanks for watching!
+[/center]", "" ]
+}
+
+[sub_resource type="Animation" id=9]
+length = 159.189
+step = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("VBoxContainer/VBoxContainer/Label:bbcode_text")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.31, 4.82, 9.96, 11.46, 17.86, 20.919, 24.679, 30.539, 35.45, 39.88, 42.76, 47.461, 53.22, 56.28, 60.5, 65.409, 68.54, 71.27, 76.45, 82.109, 83.56, 88.88, 93.729, 96.21, 99.57, 104.829, 110.149, 113.079, 118.42, 122.31, 127.81, 132.61, 135.79, 137.83, 140.129, 143.64, 147.319, 151.159, 154.42, 158.299, 159.189 ),
+"transitions": PoolRealArray( 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ),
+"update": 1,
+"values": [ "", "[center]Hola, soy Joe del Equipo de accesibilidad de juegos de Xbox.
+[/center]", "[center]2021 fue un gran año para la accesibilidad de los juegos, y estamos ansiosos por ver el progreso
+[/center]", "[center]que se hará en 2022.
+[/center]", "[center]Estos son los 5 mejores consejos para tener en cuenta al crear juegos accesibles este año.
+[/center]", "[center]Número 1: ¡planifique con anticipación!
+[/center]", "[center]Defina sus objetivos de accesibilidad en las primeras etapas del ciclo de vida del producto.
+[/center]", "[center]Las experiencias de juego verdaderamente accesibles se construyen por diseño y no como complementos de última hora.
+[/center]", "[center]Esto significa que las características adicionales que se agregan tarde en el ciclo de desarrollo para corregir problemas de diseño
+[/center]", "[center]de accesibilidad no siempre son efectivos para los jugadores.
+[/center]", "[center]Número 2: ¡No limites tu diseño!
+[/center]", "[center]Supongamos que su equipo quiere asegurarse de que los jugadores puedan escalar el texto hasta un 200 % (deberías hacerlo!)
+[/center]", "[center]pero durante el desarrollo, su juego está limitado al tamaño de texto predeterminado, lo que significa
+[/center]", "[center]que una vez que se escala el texto, la interfaz de usuario se rompe.
+[/center]", "[center]Mediante el uso frecuente de variables en el código y la creación de mockups que muestran
+[/center]", "[center]valores extremos, nos aseguramos de que van a funcionar, se puede ahorrar mucho tiempo
+[/center]", "[center]y ofrecer una experiencia que realmente funcione.
+[/center]", "[center]Número 3: Piense en a quién puede estar excluyendo.
+[/center]", "[center]Por ejemplo, si eliges opciones que requieren presionar el botón rápido y de forma repetitiva en el controlador
+[/center]", "[center]como una mecánica central del juego, se puede excluir sin querer a los jugadores que no pueden realizar físicamente
+[/center]", "[center]esas acciones.
+[/center]", "[center]Por el contrario, si permite que los jugadores personalicen el tipo de entrada para ciertas acciones, como introducir
+[/center]", "[center]otras opciones, como \"mantener presionado el botón\", o permitir que los jugadores se salten las pulsaciones rápidas de botones,
+[/center]", "[center]esto ayudará a eliminar las barreras.
+[/center]", "[center]Número 4: asociarse con la comunidad de juegos y discapacidad.
+[/center]", "[center]Si no sabe si sus decisiones de diseño pueden o no excluir grupos de jugadores,
+[/center]", "[center]puede trabajar con jugadores discapacitados que pueden ayudarlo a encontrar formas de eliminar las barreras.
+[/center]", "[center]Número 5: ¡Pruebe temprano y con frecuencia!
+[/center]", "[center]Cuando se trata de accesibilidad, es importante identificar las barreras de acceso lo antes posible
+[/center]", "[center]para dar tiempo a construir soluciones adecuadamente.
+[/center]", "[center]Si bien puede parecer tentador esperar a que una versión jugable esté lista para obtener feedback,
+[/center]", "[center]en este punto podría ser demasiado tarde para implementar la naturaleza del feedback obtenido
+[/center]", "[center]de la comunidad de jugadores.
+[/center]", "[center]Recapitulemos.
+[/center]", "[center]Número 1, planifique con anticipación.
+[/center]", "[center]Número 2, no limites tu diseño.
+[/center]", "[center]Número 3, piensa en a quién podrías estar excluyendo.
+[/center]", "[center]Número 4, Asóciate con la comunidad de juegos y discapacidades.
+[/center]", "[center]Y número 5, prueba pronto y con frecuencia.
+[/center]", "[center]Hagamos de 2022 el mejor año para los juegos accesibles.
+[/center]", "[center]¡Gracias por ver el vídeo!
+[/center]", "" ]
+}
+
+[node name="Main" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_styles/panel = SubResource( 7 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CenterContainer" type="CenterContainer" parent="VBoxContainer"]
+margin_right = 1024.0
+margin_bottom = 521.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 7.0
+
+[node name="VideoPlayer" type="VideoPlayer" parent="VBoxContainer/CenterContainer"]
+margin_left = 80.0
+margin_top = 20.0
+margin_right = 944.0
+margin_bottom = 500.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 7.0
+stream = ExtResource( 2 )
+autoplay = true
+expand = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer"]
+margin_top = 525.0
+margin_right = 1024.0
+margin_bottom = 600.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+alignment = 1
+
+[node name="Label" type="RichTextLabel" parent="VBoxContainer/VBoxContainer"]
+margin_right = 1024.0
+margin_bottom = 75.0
+custom_fonts/bold_italics_font = SubResource( 2 )
+custom_fonts/italics_font = SubResource( 3 )
+custom_fonts/bold_font = SubResource( 4 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[center]Hi, I’m Joe from the [b]Gaming Accessibility
+Team at Xbox.[/b]
+[/center]"
+tab_size = 51
+text = "Hi, I’m Joe from the Gaming Accessibility
+Team at Xbox.
+"
+fit_content_height = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OptionButton" type="OptionButton" parent="."]
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -154.0
+margin_top = 25.0
+margin_right = -24.0
+margin_bottom = 64.0
+custom_fonts/font = SubResource( 10 )
+text = "English"
+align = 1
+items = [ "English", null, false, 0, null, "Spanish", null, false, 1, null ]
+selected = 0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "subtitles-eng"
+anims/subtitles-eng = SubResource( 11 )
+anims/subtitles-es = SubResource( 9 )
+
+[node name="SRTImporter" type="Node" parent="."]
+script = ExtResource( 3 )
+srt_file = "res://assets/subtitles/subtitles_eng.srt"
+label_node = NodePath("../VBoxContainer/VBoxContainer/Label")
+animation_player_node = NodePath("../AnimationPlayer")
+animation_name = "subtitles-eng"
+
+[connection signal="item_selected" from="OptionButton" to="." method="_on_OptionButton_item_selected"]

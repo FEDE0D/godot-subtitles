@@ -1,0 +1,159 @@
+1
+00:00:00,310 --> 00:00:04,820
+Hola, soy Joe del Equipo de accesibilidad de juegos de Xbox.
+
+2
+00:00:04,820 --> 00:00:09,960
+2021 fue un gran año para la accesibilidad de los juegos, y estamos ansiosos por ver el progreso
+
+3
+00:00:09,960 --> 00:00:11,460
+que se hará en 2022.
+
+4
+00:00:11,460 --> 00:00:17,860
+Estos son los 5 mejores consejos para tener en cuenta al crear juegos accesibles este año.
+
+5
+00:00:17,860 --> 00:00:20,919
+Número 1: ¡planifique con anticipación!
+
+6
+00:00:20,919 --> 00:00:24,679
+Defina sus objetivos de accesibilidad en las primeras etapas del ciclo de vida del producto.
+
+7
+00:00:24,679 --> 00:00:30,539
+Las experiencias de juego verdaderamente accesibles se construyen por diseño y no como complementos de última hora.
+
+8
+00:00:30,539 --> 00:00:35,450
+Esto significa que las características adicionales que se agregan tarde en el ciclo de desarrollo para corregir problemas de diseño
+
+9
+00:00:35,450 --> 00:00:39,880
+de accesibilidad no siempre son efectivos para los jugadores.
+
+10
+00:00:39,880 --> 00:00:42,760
+Número 2: ¡No limites tu diseño!
+
+11
+00:00:42,760 --> 00:00:47,461
+Supongamos que su equipo quiere asegurarse de que los jugadores puedan escalar el texto hasta un 200 % (deberías hacerlo!)
+
+12
+00:00:47,461 --> 00:00:53,220
+pero durante el desarrollo, su juego está limitado al tamaño de texto predeterminado, lo que significa
+
+13
+00:00:53,220 --> 00:00:56,280
+que una vez que se escala el texto, la interfaz de usuario se rompe.
+
+14
+00:00:56,280 --> 00:01:00,500
+Mediante el uso frecuente de variables en el código y la creación de mockups que muestran
+
+15
+00:01:00,500 --> 00:01:05,409
+valores extremos, nos aseguramos de que van a funcionar, se puede ahorrar mucho tiempo
+
+16
+00:01:05,409 --> 00:01:08,540
+y ofrecer una experiencia que realmente funcione.
+
+17
+00:01:08,540 --> 00:01:11,270
+Número 3: Piense en a quién puede estar excluyendo.
+
+18
+00:01:11,270 --> 00:01:16,450
+Por ejemplo, si eliges opciones que requieren presionar el botón rápido y de forma repetitiva en el controlador
+
+19
+00:01:16,450 --> 00:01:22,109
+como una mecánica central del juego, se puede excluir sin querer a los jugadores que no pueden realizar físicamente
+
+20
+00:01:22,109 --> 00:01:23,560
+esas acciones.
+
+21
+00:01:23,560 --> 00:01:28,880
+Por el contrario, si permite que los jugadores personalicen el tipo de entrada para ciertas acciones, como introducir
+
+22
+00:01:28,880 --> 00:01:33,729
+otras opciones, como "mantener presionado el botón", o permitir que los jugadores se salten las pulsaciones rápidas de botones,
+
+23
+00:01:33,729 --> 00:01:36,210
+esto ayudará a eliminar las barreras.
+
+24
+00:01:36,210 --> 00:01:39,570
+Número 4: asociarse con la comunidad de juegos y discapacidad.
+
+25
+00:01:39,570 --> 00:01:44,829
+Si no sabe si sus decisiones de diseño pueden o no excluir grupos de jugadores,
+
+26
+00:01:44,829 --> 00:01:50,149
+puede trabajar con jugadores discapacitados que pueden ayudarlo a encontrar formas de eliminar las barreras.
+
+27
+00:01:50,149 --> 00:01:53,079
+Número 5: ¡Pruebe temprano y con frecuencia!
+
+28
+00:01:53,079 --> 00:01:58,420
+Cuando se trata de accesibilidad, es importante identificar las barreras de acceso lo antes posible
+
+29
+00:01:58,420 --> 00:02:02,310
+para dar tiempo a construir soluciones adecuadamente.
+
+30
+00:02:02,310 --> 00:02:07,810
+Si bien puede parecer tentador esperar a que una versión jugable esté lista para obtener feedback,
+
+31
+00:02:07,810 --> 00:02:12,610
+en este punto podría ser demasiado tarde para implementar la naturaleza del feedback obtenido
+
+32
+00:02:12,610 --> 00:02:15,790
+de la comunidad de jugadores.
+
+33
+00:02:15,790 --> 00:02:17,830
+Recapitulemos.
+
+34
+00:02:17,830 --> 00:02:20,129
+Número 1, planifique con anticipación.
+
+35
+00:02:20,129 --> 00:02:23,640
+Número 2, no limites tu diseño.
+
+36
+00:02:23,640 --> 00:02:27,319
+Número 3, piensa en a quién podrías estar excluyendo.
+
+37
+00:02:27,319 --> 00:02:31,159
+Número 4, Asóciate con la comunidad de juegos y discapacidades.
+
+38
+00:02:31,159 --> 00:02:34,420
+Y número 5, prueba pronto y con frecuencia.
+
+39
+00:02:34,420 --> 00:02:38,299
+Hagamos de 2022 el mejor año para los juegos accesibles.
+
+40
+00:02:38,299 --> 00:02:39,189
+¡Gracias por ver el vídeo!
