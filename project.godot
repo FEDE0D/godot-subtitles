@@ -8,16 +8,26 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "RichTextLabel",
+"class": "LiveCaption",
+"language": "GDScript",
+"path": "res://addons/godot_subtitles/live_caption_node.gd"
+} ]
+_global_script_class_icons={
+"LiveCaption": ""
+}
+
 [application]
 
 config/name="Godot Subtitles"
 config/description="Sample project that uses the SRT To Animation plugin"
-run/main_scene="res://scenes/Main.tscn"
+run/main_scene="res://scenes/MainMenu.tscn"
 config/icon="res://icon.png"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/srt-animation/plugin.cfg" )
+enabled=PoolStringArray( "res://addons/godot_subtitles/plugin.cfg" )
 
 [physics]
 

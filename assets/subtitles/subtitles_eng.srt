@@ -1,6 +1,6 @@
 1
 00:00:00,310 --> 00:00:04,820
-Hi, I’m Joe from the <b>Gaming Accessibility
+Hi, I’m Joe from the <b>Gaming Accessibility 
 Team at Xbox.</b>
 
 2

@@ -8,3 +8,6 @@ func _on_OptionButton_item_selected(index):
 	var position = $AnimationPlayer.current_animation_position
 	$AnimationPlayer.play(animation_name)
 	$AnimationPlayer.seek(position, true)
+
+func _on_BackBtn_pressed():
+	get_tree().change_scene("res://scenes/MainMenu.tscn")
