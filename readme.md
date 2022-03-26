@@ -4,6 +4,8 @@ This is a sample project that includes the "SRT To Animation" plugin for Godot 3
 
 The project includes an ogv format video and srt subtitles both on spanish and english, imported into the scene using the SRTImporter node.
 
+![image](https://user-images.githubusercontent.com/6296184/158704719-4d499719-4315-4420-b437-cba9829ec095.png)
+
 ## SRT To Animation Plugin
 
 This plugin was created to help you work with subtitles inside Godot. It allowes you to import an srt format subtitle file into any scene.
@@ -20,6 +22,8 @@ Once you import the addon, you will find available the new  "SRTImporter" node.
 
 This node will import the srt into any animation and richLabelText node that you have on your scene. You will have to setup some node properties first:
 
+![image](https://user-images.githubusercontent.com/6296184/158704344-ae693616-ce44-4c7b-b558-bdb0bf68eb2f.png)
+
 * SRT file: select any .srt file that you want to import
 * Label node: the path to the RichTextLabel node where you want to show the subtitles
 * AnimationPlayer node: the path to the AnimationPlayer node where you want to create the new animation
@@ -31,6 +35,8 @@ This node will import the srt into any animation and richLabelText node that you
 Once you finished the setup of the SRTImported node you can click the "Import Animation" checkbox to import the srt file.
 
 If you go to the animation player you will now see a new animation, where the tracks are animating the bbcode_text property of the richTextLabel node.
+
+![image](https://user-images.githubusercontent.com/6296184/158704295-eff56e54-9c59-4f64-806e-2be1ed723b85.png)
 
 ## BBCode
 
