@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://addons/godot_subtitles/fonts/Roboto/Roboto-Regular.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://addons/godot_subtitles/fonts/Roboto/Roboto-Bold.ttf" type="DynamicFontData" id=2]
@@ -12,6 +12,13 @@ font_data = ExtResource( 2 )
 size = 22
 font_data = ExtResource( 1 )
 
+[sub_resource type="InputEventAction" id=5]
+action = "video_btn_action"
+pressed = true
+
+[sub_resource type="ShortCut" id=4]
+shortcut = SubResource( 5 )
+
 [node name="MainMenu" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -19,7 +26,8 @@ script = ExtResource( 3 )
 __meta__ = {
 "_edit_group_": true,
 "_edit_lock_": true,
-"_edit_use_anchors_": false
+"_edit_use_anchors_": false,
+"_editor_description_": ""
 }
 
 [node name="ColorRect" type="ColorRect" parent="."]
@@ -27,70 +35,168 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 color = Color( 0.0705882, 0.0705882, 0.0705882, 1 )
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = -133.0
-margin_top = -120.0
-margin_right = 133.0
-margin_bottom = 120.0
-custom_constants/separation = 10
+[node name="VBoxContainer2" type="VBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Label" type="Label" parent="VBoxContainer"]
-margin_right = 266.0
+[node name="Control" type="Control" parent="VBoxContainer2"]
+margin_right = 1024.0
+margin_bottom = 98.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer2"]
+margin_top = 102.0
+margin_right = 1024.0
+margin_bottom = 497.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 4.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control" type="Control" parent="VBoxContainer2/HBoxContainer"]
+margin_right = 203.0
+margin_bottom = 395.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer2/HBoxContainer"]
+margin_left = 207.0
+margin_right = 816.0
+margin_bottom = 395.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 3.0
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="Control" type="VBoxContainer" parent="VBoxContainer2/HBoxContainer/VBoxContainer"]
+margin_right = 609.0
+margin_bottom = 129.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="VBoxContainer2/HBoxContainer/VBoxContainer/Control"]
+margin_right = 609.0
 margin_bottom = 33.0
 custom_fonts/font = SubResource( 1 )
-text = "Godot Subtitle Plugin"
+text = "title"
 align = 1
+__meta__ = {
+"_edit_use_anchors_": true
+}
 
-[node name="Label2" type="Label" parent="VBoxContainer"]
-margin_top = 43.0
-margin_right = 266.0
-margin_bottom = 70.0
+[node name="Label2" type="Label" parent="VBoxContainer2/HBoxContainer/VBoxContainer/Control"]
+margin_top = 37.0
+margin_right = 609.0
+margin_bottom = 64.0
 custom_fonts/font = SubResource( 2 )
-text = "Sample Projects"
+text = "subtitle"
 align = 1
+__meta__ = {
+"_edit_use_anchors_": true
+}
 
-[node name="HSeparator" type="HSeparator" parent="VBoxContainer"]
-margin_top = 80.0
-margin_right = 266.0
-margin_bottom = 84.0
+[node name="Control2" type="VBoxContainer" parent="VBoxContainer2/HBoxContainer/VBoxContainer"]
+margin_top = 133.0
+margin_right = 609.0
+margin_bottom = 262.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
 
-[node name="Label3" type="Label" parent="VBoxContainer"]
-margin_top = 94.0
-margin_right = 266.0
-margin_bottom = 125.0
-text = "Use the SRTImporter node to import any .srt file into an AnimationPlayer"
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer2/HBoxContainer/VBoxContainer/Control2"]
+margin_right = 609.0
+margin_bottom = 4.0
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer2/HBoxContainer/VBoxContainer/Control2"]
+margin_top = 8.0
+margin_right = 609.0
+margin_bottom = 62.0
+custom_constants/margin_right = 70
+custom_constants/margin_top = 20
+custom_constants/margin_left = 70
+custom_constants/margin_bottom = 20
+
+[node name="Label3" type="Label" parent="VBoxContainer2/HBoxContainer/VBoxContainer/Control2/MarginContainer"]
+margin_left = 70.0
+margin_top = 20.0
+margin_right = 539.0
+margin_bottom = 34.0
+text = "srt_description"
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="VideoSampleBtn" type="Button" parent="VBoxContainer2/HBoxContainer/VBoxContainer/Control2"]
+margin_left = 250.0
+margin_top = 66.0
+margin_right = 358.0
+margin_bottom = 86.0
+size_flags_horizontal = 4
+shortcut = SubResource( 4 )
+text = "srt_button_text"
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Control3" type="VBoxContainer" parent="VBoxContainer2/HBoxContainer/VBoxContainer"]
+margin_top = 266.0
+margin_right = 609.0
+margin_bottom = 395.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="HSeparator2" type="HSeparator" parent="VBoxContainer2/HBoxContainer/VBoxContainer/Control3"]
+margin_right = 609.0
+margin_bottom = 4.0
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer2/HBoxContainer/VBoxContainer/Control3"]
+margin_top = 8.0
+margin_right = 609.0
+margin_bottom = 62.0
+custom_constants/margin_right = 70
+custom_constants/margin_top = 20
+custom_constants/margin_left = 70
+custom_constants/margin_bottom = 20
+
+[node name="Label4" type="Label" parent="VBoxContainer2/HBoxContainer/VBoxContainer/Control3/MarginContainer"]
+margin_left = 70.0
+margin_top = 20.0
+margin_right = 539.0
+margin_bottom = 34.0
+text = "live_description"
 autowrap = true
 
-[node name="VideoSampleBtn" type="Button" parent="VBoxContainer"]
-margin_top = 135.0
-margin_right = 266.0
-margin_bottom = 155.0
-text = "Video Sample"
+[node name="LiveCaptionBtn" type="Button" parent="VBoxContainer2/HBoxContainer/VBoxContainer/Control3"]
+margin_left = 247.0
+margin_top = 66.0
+margin_right = 361.0
+margin_bottom = 86.0
+size_flags_horizontal = 4
+text = "live_button_text"
 
-[node name="HSeparator2" type="HSeparator" parent="VBoxContainer"]
-margin_top = 165.0
-margin_right = 266.0
-margin_bottom = 169.0
+[node name="Control2" type="Control" parent="VBoxContainer2/HBoxContainer"]
+margin_left = 820.0
+margin_right = 1024.0
+margin_bottom = 395.0
+size_flags_horizontal = 3
 
-[node name="Label4" type="Label" parent="VBoxContainer"]
-margin_top = 179.0
-margin_right = 266.0
-margin_bottom = 210.0
-text = "Use the LiveCaption node to show dialog and descriptive captions on screen."
-autowrap = true
+[node name="Control2" type="Control" parent="VBoxContainer2"]
+margin_top = 501.0
+margin_right = 1024.0
+margin_bottom = 600.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
 
-[node name="LiveCaptionBtn" type="Button" parent="VBoxContainer"]
-margin_top = 220.0
-margin_right = 266.0
-margin_bottom = 240.0
-text = "Live Caption Sample"
-
-[connection signal="pressed" from="VBoxContainer/VideoSampleBtn" to="." method="_on_VideoSampleBtn_pressed"]
-[connection signal="pressed" from="VBoxContainer/LiveCaptionBtn" to="." method="_on_LiveCaptionBtn_pressed"]
+[connection signal="pressed" from="VBoxContainer2/HBoxContainer/VBoxContainer/Control2/VideoSampleBtn" to="." method="_on_VideoSampleBtn_pressed"]
+[connection signal="pressed" from="VBoxContainer2/HBoxContainer/VBoxContainer/Control3/LiveCaptionBtn" to="." method="_on_LiveCaptionBtn_pressed"]

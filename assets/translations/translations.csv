@@ -1,0 +1,17 @@
+keys,en,es
+title,Godot Subtitle Plugin,Plugin para Subtítulos en Godot
+subtitle,Sample Project,Projecto de ejemplo
+srt_description,Use the SRTImporter node to convert any .srt file into an Animation,Usa el nodo SRTImporter para convertir cualquier archivo .srt en una Animación
+srt_button_text,Video Subtitle Sample,Ejemplo video con subtítulos
+live_description,Use the LiveCaption node to show dialog and descriptive captions on screen.,Usa el nodo LiveCaption para mostrar dialogo y subtítulos descriptivos en la pantalla
+live_button_text,Live Caption Sample,Ejemplo LiveCaption
+back_button_text,Back,Volver
+english_text,English,Inglés
+spanish_text,Spanish,Español
+live_text_1_generate,1. Generate dialog or descriptions,1. Generar diálogo o descripciones
+live_text_1_mood,Change the dialog mood,Cambia el humor del diálogo
+live_text_2_custom,2. Or write your custom text,2. O escribe texto personalizado
+live_text_2_custom_text,Enter your caption here,Ingresa tu texto personalizado
+live_text_2_custom_btn,Send custom caption,Enviar Texto personalizado
+live_text_result,Result:,Resultado:
+live_text_2_force_clean,Force Clean Screen,Forzar limpiado de pantalla

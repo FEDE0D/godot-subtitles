@@ -35,6 +35,7 @@ func _ready():
 	subtitle.set_character_color("Alyx Vance", Color.cornflower)
 	subtitle.set_character_color("G-Man", Color.gray)
 	subtitle.set_character_color("Dr. Breen", Color.cyan)
+	$PanelContainer/Panel/VBoxContainer/VBoxContainer3/TextEdit.text = tr("live_text_2_custom_text")
 
 func _on_character_button_pressed(character_name):
 	var captions = characters[character_name]

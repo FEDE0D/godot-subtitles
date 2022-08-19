@@ -175,16 +175,16 @@ __meta__ = {
 
 [node name="CenterContainer" type="CenterContainer" parent="VBoxContainer"]
 margin_right = 1024.0
-margin_bottom = 521.0
+margin_bottom = 496.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-size_flags_stretch_ratio = 7.0
+size_flags_stretch_ratio = 5.0
 
 [node name="VideoPlayer" type="VideoPlayer" parent="VBoxContainer/CenterContainer"]
 margin_left = 80.0
-margin_top = 20.0
+margin_top = 8.0
 margin_right = 944.0
-margin_bottom = 500.0
+margin_bottom = 488.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 size_flags_stretch_ratio = 7.0
@@ -195,17 +195,28 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer"]
-margin_top = 525.0
+[node name="VBoxContainer" type="Control" parent="VBoxContainer"]
+margin_top = 500.0
 margin_right = 1024.0
 margin_bottom = 600.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-alignment = 1
+
+[node name="SubtitleBackground" type="Panel" parent="VBoxContainer/VBoxContainer"]
+modulate = Color( 0.698039, 0.698039, 0.698039, 1 )
+show_behind_parent = true
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="LiveCaption" type="RichTextLabel" parent="VBoxContainer/VBoxContainer"]
-margin_right = 1024.0
-margin_bottom = 75.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_top = -37.5
+margin_bottom = 31.5
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_fonts/bold_italics_font = ExtResource( 4 )
@@ -219,7 +230,11 @@ Team at Xbox.[/b]
 text = "Hi, I’m Joe from the Gaming Accessibility 
 Team at Xbox.
 "
+fit_content_height = true
 script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="OptionButton" type="OptionButton" parent="."]
 anchor_left = 1.0
@@ -228,9 +243,9 @@ margin_left = -154.0
 margin_top = 25.0
 margin_right = -24.0
 margin_bottom = 64.0
-text = "English"
+text = "english_text"
 align = 1
-items = [ "English", null, false, 0, null, "Spanish", null, false, 1, null ]
+items = [ "english_text", null, false, 0, null, "spanish_text", null, false, 1, null ]
 selected = 0
 __meta__ = {
 "_edit_use_anchors_": false
@@ -241,7 +256,7 @@ margin_left = 16.0
 margin_top = 24.0
 margin_right = 58.0
 margin_bottom = 44.0
-text = "Back"
+text = "back_button_text"
 __meta__ = {
 "_edit_use_anchors_": false
 }

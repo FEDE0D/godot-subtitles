@@ -45,10 +45,10 @@ __meta__ = {
 }
 
 [node name="BackBtn" type="Button" parent="PanelContainer/Panel/VBoxContainer"]
-margin_right = 42.0
+margin_right = 120.0
 margin_bottom = 20.0
 size_flags_horizontal = 0
-text = "Back"
+text = "back_button_text"
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -77,7 +77,7 @@ size_flags_vertical = 3
 [node name="Label" type="Label" parent="PanelContainer/Panel/VBoxContainer/Panel/HBoxContainer/VBoxContainer"]
 margin_right = 503.0
 margin_bottom = 14.0
-text = "1. Generate dialog or descriptions"
+text = "live_text_1_generate"
 
 [node name="Button1" type="Button" parent="PanelContainer/Panel/VBoxContainer/Panel/HBoxContainer/VBoxContainer"]
 margin_top = 18.0
@@ -111,7 +111,7 @@ align = 0
 margin_top = 114.0
 margin_right = 503.0
 margin_bottom = 154.0
-text = "Force Clean Screen"
+text = "live_text_2_force_clean"
 
 [node name="VBoxContainer2" type="VBoxContainer" parent="PanelContainer/Panel/VBoxContainer/Panel/HBoxContainer"]
 margin_left = 507.0
@@ -123,7 +123,7 @@ size_flags_vertical = 3
 [node name="Label2" type="Label" parent="PanelContainer/Panel/VBoxContainer/Panel/HBoxContainer/VBoxContainer2"]
 margin_right = 503.0
 margin_bottom = 14.0
-text = "Change the dialog mood"
+text = "live_text_1_mood"
 
 [node name="ItemList" type="ItemList" parent="PanelContainer/Panel/VBoxContainer/Panel/HBoxContainer/VBoxContainer2"]
 margin_top = 18.0
@@ -148,7 +148,7 @@ size_flags_vertical = 3
 [node name="Label" type="Label" parent="PanelContainer/Panel/VBoxContainer/VBoxContainer3"]
 margin_right = 1010.0
 margin_bottom = 14.0
-text = "2. Or write your custom text"
+text = "live_text_2_custom"
 
 [node name="TextEdit" type="TextEdit" parent="PanelContainer/Panel/VBoxContainer/VBoxContainer3"]
 margin_top = 18.0
@@ -156,18 +156,18 @@ margin_right = 1010.0
 margin_bottom = 132.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-text = "Enter your caption here"
+text = "live_text_2_custom_text"
 show_line_numbers = true
 draw_tabs = true
 draw_spaces = true
 
 [node name="CustomCaptionBtn" type="Button" parent="PanelContainer/Panel/VBoxContainer/VBoxContainer3"]
-margin_left = 448.0
+margin_left = 424.0
 margin_top = 136.0
-margin_right = 561.0
+margin_right = 585.0
 margin_bottom = 156.0
 size_flags_horizontal = 4
-text = "Custom Caption"
+text = "live_text_2_custom_btn"
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -183,7 +183,7 @@ custom_styles/panel = SubResource( 1 )
 [node name="Label" type="Label" parent="PanelContainer/Panel/VBoxContainer/Panel2"]
 margin_right = 40.0
 margin_bottom = 14.0
-text = "Result:"
+text = "live_text_result"
 __meta__ = {
 "_edit_use_anchors_": false
 }
